@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Bungee&family=Share:wght@700&display=swap');
+
+
+
+/*Navbar*/
+.navbar{
+    background-image: linear-gradient(to right, rgb(108,108, 249), rgb(100,211,254));
+}
+
+.nav-item{
+
+  text-transform: uppercase;
+}
+
+.nav-item a{
+  color: #fff !important;
+  font-family: 'Share', cursive;
+
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link:hover,
+.navbar-dark .navbar-nav .nav-item.active .nav-link
+{
+  background: white;
+  color: rgb(100,211,254) !important;
+}
+
+.dropdown-menu{
+  background-color: white;
+}
+
+.dropdown-item{
+  font-weight: bold;
+}
+
+.dropdown-menu a{
+  color: rgb(100,211,254) !important;
+}
+
+.dropdown-menu a:hover{
+  color: white !important;
+  background: rgb(100,211,254) !important;
+}
+
+.jumbotron{
+    padding-top: 6rem;
+    background-image: linear-gradient(to right, rgb(108,108, 249), rgb(100,211,254));
+  }
+
+/*Navbar*/
+
+/*Tim Kami*/
+
+.main-content {
+  max-width: 1350px;
+  background: #fff;
+  padding-bottom: 2rem;
+  padding-top: 3rem;
+}
+
+.page-title {
+  font-size: 35px;
+  font-family: 'Bungee', cursive;
+}
+
+.page-title:after {
+  content: "";
+  width: 110px;
+  height: 4px;
+  background-color: rgb(108,108, 249);
+  display: block;
+  margin: 15px auto 0 auto;
+}
+
+.profile-card {
+  background: #fff;
+  -webkit-box-shadow: 0 2px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+.profile-card .profile-card_cover {
+  height: 130px;
+  overflow: hidden;
+
+}
+
+.profile-card .profile-card_padding {
+  padding: 25px;
+  position: relative;
+  margin-top: -85px;
+}
+
+.profile-card .profile-card_image {
+  width: 125px;
+  height: 125px;
+  border-radius: 125px;
+  overflow: hidden;
+  border: 4px solid #fff;
+  margin: 0 auto 15px auto;
+}
+
+.profile-card .profile-card_image img {
+  width: 125px;
+  height: 125px;
+}
+
+.profile-card .profile-card_details h3 {
+  font-size: 21px;
+  color: black;
+}
+
+  .profile-card .profile-card_social a {
+    display: inline-block;
+  }
+
+.profile-card .profile-card_social img {
+  width: 33px;
+  margin: 5px 10px;
+}
+
+
+/*Tim Kami*/
+
+/*Pelayanan Kami*/
+
+.card{
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(100,211,254);
+  font-family: 'Share', cursive;
+  color: rgb(0,57,100);
+
+}
+
+/*Pelayanan Kami*/
+
+/*Game dan Musik*/
+
+.page-game:after {
+  content: "";
+  width: 600px;
+  height: 4px;
+  background-color: rgb(108,108, 249);
+  display: block;
+  margin: 15px auto 0 auto;
+}
+
+/*Game dan Musik*/
+
+/*Desain dan Website*/
+
+.gallery{
+    min-height: 100vh;
+    background-image: linear-gradient(to right, rgb(108,108, 249), rgb(100,211,254));
+    padding-bottom: 100px;
+}
+
+.gallery .controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:20px 0;
+    list-style: none;
+    font-family: 'Share', cursive;
+}
+
+.gallery .controls .buttons{
+    height:40px;
+    width: 140px;
+    background:#fff;
+    color:#666;
+    font-size: 20px;
+    line-height: 40px;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: 0 3px 5px rgba(0,0,0,.3);
+    text-align: center;
+}
+
+.gallery .controls .buttons.active{
+    background:rgb(0,57,100);
+    color:#fff;
+}
+
+.gallery .image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery .image-container .image{
+    height:200px;
+    width: 200px;
+    overflow: hidden;
+    border:15px solid #fff;
+    box-shadow: 0 3px 5px rgba(0,0,0,.3);
+    margin: 20px;
+}
+
+
+.gallery .image-container .image img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+
+.gallery .image-container .image:hover img{
+    transform: scale(1.4);
+}
+
+/*Desain dan Website*/
+
+/*qna*/
+
+.qna-header h3{
+	color: black;
+	text-align: center;
+}
+
+.page-qna {
+  font-size: 35px;
+  font-family: 'Bungee', cursive;
+}
+
+.page-qna:after {
+  content: "";
+  width: 300px;
+  height: 4px;
+  background-color: rgb(108,108, 249);
+  display: block;
+  margin: 15px auto 0 auto;
+}
+
+
+/*qna*/
+
+/*footer*/
+
+
+
+.atas p{
+    color: white;
+    line-height: 25px;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.atas h2,h3{
+  color: #fff;
+  font-family: 'Comic Sans MS', cursive;
+}
+
+.atas h2{
+  font-size: 18px;
+}
+
+.atas{  
+  background-image: linear-gradient(to right, rgb(108,108, 249), rgb(100,211,254));
+  padding: 80px 0;
+}
+
+.pertama h3{
+  font-family:Courgette;
+  color: #fff;
+  letter-spacing: 3px;
+  margin: 10px 0;
+}
+
+.kedua h2{
+  color: #fff;
+  
+  
+}
+
+.kedua h2:before{
+  content: '|';
+  color: rgb(100,211,254);
+  padding-right: 10px;
+}
+
+.kedua ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.kedua ul li{
+  border-bottom: solid rgb(100,211,254);
+  line-height: 40px;
+}
+
+.kedua ul li a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Comic Sans MS', cursive;
+}
+
+.ketiga h2{
+  color: #fff;
+  }
+
+.ketiga h2:before{
+  content: '|';
+  color: rgb(100,211,254);
+  padding-right: 10px;
+}
+
+.ketiga a{
+  background-color: #17a2b8;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.ketiga a i{
+  font-size: 20px;
+  color: white;
+  padding: 10px 12px;
+}
+
+.keempat h2{
+  color: #fff;
+}
+
+.keempat h2:before{
+  content: '|';
+  color: rgb(100,211,254);
+  padding-right: 10px;
+
+}
+
+.keempat form input[type=submit] {
+  background: #17a2b8;
+  border: none;
+  padding: 3px 15px;
+  margin-left: -5px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Share', cursive;
+
+}
+
+.keempat h5{
+  color: #fff;
+}
+
+.bawah{
+  text-align: center;
+  background-color:  rgb(108,108, 249);
+  line-height: 75px;
+  margin-bottom: 0;
+}
+
+/*footer*/
+
+}
+
